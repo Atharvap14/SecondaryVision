@@ -1,4 +1,5 @@
-﻿namespace OpenCvSharp.Demo
+﻿
+namespace OpenCvSharp.Demo
 {
 	using UnityEngine;
 	using System.Collections;
