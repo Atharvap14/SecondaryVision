@@ -53,7 +53,7 @@ public class Sound_Source_Manager : MonoBehaviour
     }
 
     void TaskOnClick() {
-        SourcePosition = new Vector3(int.Parse(X_field.text), int.Parse(Y_field.text), int.Parse(Z_field.text));
+        SourcePosition = new Vector3(float.Parse(X_field.text), float.Parse(Y_field.text), float.Parse(Z_field.text));
         Instantiate(source, SourcePosition, Quaternion.identity);
         X_field.placeholder = placeholder;
     }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - inputField
   - Button
+  - Source
   layers:
   - Default
   - TransparentFX
