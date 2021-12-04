@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43678078, g: 0.47543323, b: 0.51608497, a: 1}
+  m_IndirectSpecularColor: {r: 0.43166155, g: 0.46732175, b: 0.5008322, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -256,7 +256,7 @@ VideoPlayer:
   m_RenderMode: 2
   m_AspectRatio: 2
   m_DataSource: 0
-  m_PlaybackSpeed: 2
+  m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
   - {fileID: 0}
@@ -329,7 +329,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9716981, g: 0.9716981, b: 0.9716981, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -387,13 +387,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1150673456}
-  m_LocalRotation: {x: 0.253923, y: -0.39647, z: -0.30690908, w: 0.8271285}
+  m_LocalRotation: {x: 0.5596974, y: 0.37932736, z: -0.6639331, w: -0.31944075}
   m_LocalPosition: {x: 690.2625, y: 533, z: -390.76074}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 10.177, y: -55.558, z: -46.086}
+  m_LocalEulerAnglesHint: {x: 8.402, y: -85.03, z: -239.093}
 --- !u!1001 &1567283545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -427,7 +427,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c21f602d4eefcc4dbcdd55321142ed8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.08
+      value: 2.37
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c21f602d4eefcc4dbcdd55321142ed8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -917,7 +917,7 @@ Camera:
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
-  m_FOVAxisMode: 0
+  m_FOVAxisMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
   m_FocalLength: 50
@@ -927,10 +927,10 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 89
-  orthographic: 1
+  near clip plane: 0.01
+  far clip plane: 10
+  field of view: 53.57874
+  orthographic: 0
   orthographic size: 5
   m_Depth: 0
   m_CullingMask:
@@ -954,13 +954,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1887894772}
-  m_LocalRotation: {x: -0.0065443176, y: -0.0000000030286467, z: -0.000000019152129, w: 0.9999786}
-  m_LocalPosition: {x: 0.24, y: 1.91, z: -1.98}
+  m_LocalRotation: {x: -0.005652156, y: -0.5040422, z: -0.0032987592, w: 0.8636543}
+  m_LocalPosition: {x: 7.4, y: 1.91, z: 0.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: -0.75, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.75, y: -60.537, z: 0}
 --- !u!1 &1981591766
 GameObject:
   m_ObjectHideFlags: 0

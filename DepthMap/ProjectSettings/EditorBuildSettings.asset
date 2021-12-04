@@ -5,15 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
-    path: Assets/Scenes/DepthMap.unity
-    guid: d5a5a39768b15e34db6007989c7bef06
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: Assets/Scenes/OpenCVTesting.unity
     guid: 835ff471f6b39f14486196d714db8ba4
+  - enabled: 1
+    path: Assets/Scenes/ForVideo.unity
+    guid: 9dec3ee41239d4f40abbc3a5d35bae65
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: e7d8cac3284ebd24ca59c356bd3cb466, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 31e25ce3851606242b44c71648932b19, type: 2}

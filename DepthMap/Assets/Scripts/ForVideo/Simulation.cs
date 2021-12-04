@@ -50,7 +50,10 @@ public class Simulation : MonoBehaviour
     private void Update()
     {
         // code for object detection
-        detectobj();
+        
+            
+        
+        
          
         if (t==4)
         {
@@ -59,12 +62,12 @@ public class Simulation : MonoBehaviour
                 Destroy(i);
             }
             t = 0;
+            detectobj();
             Debug.Log("destroyed");
+            
         }
         t++;
-        frame.Release();
         
-        src_gray.Release();
         
     }
 
