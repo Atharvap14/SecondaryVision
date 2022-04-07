@@ -64,8 +64,13 @@ The following tasks were carried out under this module :
 The device was decided to be a head mounted device.
 
 * Preliminary Design / Paper prototyping : The helmet would be a triple layer structure and each layer is meant for different purposes for example top layer is meant for ventilation and tensile strength, the middle layer is used for ventilation only and the innermost is meant for comfortableness and also insulation. The material selected was the mixture of GRP and FRP or their composite. The helmet will have a mounting place for the camera and so have some slots for adjustment of the circuit components.
-![]()
+
+![PaperProto](PaperPrototype.png)
+
 * 3D prototype based on preliminary design :
-![]()
+
+![](BlenderModel.png)
+
 * However keeping in mind the comfort of the user the following variant was decided :
-![]()
+
+![Variant](VariantModel.png)
